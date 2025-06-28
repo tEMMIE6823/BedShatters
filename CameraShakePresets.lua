@@ -16,7 +16,7 @@
 
 
 
-local CameraShakeInstance = loadstring(game:HttpGet(""))()--(script.Parent.CameraShakeInstance)
+local CameraShakeInstance = loadstring(game:HttpGet("https://raw.githubusercontent.com/tEMMIE6823/BedShatters/refs/heads/main/CameraShakeInstance.lua"))()--(script.Parent.CameraShakeInstance)
 
 local CameraShakePresets = {
 	
