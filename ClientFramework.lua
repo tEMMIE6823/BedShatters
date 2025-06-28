@@ -7,8 +7,8 @@ local GuiService = game:GetService("GuiService")
 local TweenService = game:GetService("TweenService")
 
 -- // Imports
-local CameraShaker = loadstring(game:HttpGet(""))()--(ReplicatedStorage.Modules.CameraShaker)
-local SharedFramework = loadstring(game:HttpGet(""))()--(script.Parent:WaitForChild("SharedFramework"))
+local CameraShaker = loadstring(game:HttpGet("https://raw.githubusercontent.com/tEMMIE6823/BedShatters/refs/heads/main/CameraShaker.lua"))()--(ReplicatedStorage.Modules.CameraShaker)
+local SharedFramework = loadstring(game:HttpGet("https://raw.githubusercontent.com/tEMMIE6823/BedShatters/refs/heads/main/SharedFramework.lua"))()--(script.Parent:WaitForChild("SharedFramework"))
 
 -- // Variables
 local Resources = ReplicatedStorage.Resources
