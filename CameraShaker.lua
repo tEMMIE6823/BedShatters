@@ -58,7 +58,7 @@ local ANG = CFrame.Angles
 local RAD = math.rad
 local v3Zero = V3()
 
-local CameraShakeInstance = loadstring(game:HttpGet(""))()--(script.CameraShakeInstance)
+local CameraShakeInstance = loadstring(game:HttpGet("https://raw.githubusercontent.com/tEMMIE6823/BedShatters/refs/heads/main/CameraShakeInstance.lua"))()--(script.CameraShakeInstance)
 local CameraShakeState = CameraShakeInstance.CameraShakeState
 
 local defaultPosInfluence = V3(0.15, 0.15, 0.15)
@@ -66,7 +66,7 @@ local defaultRotInfluence = V3(1, 1, 1)
 
 
 CameraShaker.CameraShakeInstance = CameraShakeInstance
-CameraShaker.Presets = loadstring(game:HttpGet(""))()--(script.CameraShakePresets)
+CameraShaker.Presets = loadstring(game:HttpGet("https://raw.githubusercontent.com/tEMMIE6823/BedShatters/refs/heads/main/CameraShakePresets.lua"))()--(script.CameraShakePresets)
 
 
 function CameraShaker.new(renderPriority, callback)
