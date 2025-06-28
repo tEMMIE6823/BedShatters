@@ -11,7 +11,7 @@ local rad = math.rad
 local sin = math.sin
 local random = math.random
 local huge = math.huge
-local MainModule = loadstring(game:HttpGet(""))()--(ReplicatedStorage.ClientModules.MainModule)
+local MainModule = loadstring(game:HttpGet("https://raw.githubusercontent.com/tEMMIE6823/BedShatters/refs/heads/main/MainModule.lua"))()--(ReplicatedStorage.ClientModules.MainModule)
 
 local module = {}
 
