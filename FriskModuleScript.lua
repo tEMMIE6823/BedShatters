@@ -21,7 +21,7 @@ local rootPart, humanoid = character:WaitForChild("HumanoidRootPart"), character
 local head, torso = character:WaitForChild("Head"), character:WaitForChild("Torso")
 local leftArm, rightArm = character:WaitForChild("Left Arm"), character:WaitForChild("Right Arm")
 local leftLeg, rightLeg = character:WaitForChild("Left Leg"), character:WaitForChild("Right Leg")
-local animsFolder = script:WaitForChild("Animations")
+local animsFolder = player.Backpack:WaitForChild("Main"):WaitForChild("FriskMoves"):WaitForChild("ModuleScript").Animations
 game:GetService("ContentProvider"):PreloadAsync(animsFolder:GetDescendants())
 
 local function getPlayerModels()
