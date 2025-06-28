@@ -13,7 +13,7 @@ local Remotes = game.ReplicatedStorage:WaitForChild("Remotes")
 
 local camera = workspace.CurrentCamera
 
-local ClientFramework = loadstring(game:HttpGet(""))()--(ReplicatedStorage.Modules.ClientFramework)
+local ClientFramework = loadstring(game:HttpGet("https://raw.githubusercontent.com/tEMMIE6823/BedShatters/refs/heads/main/ClientFramework.lua"))()--(ReplicatedStorage.Modules.ClientFramework)
 
 local function tick()
 	return Workspace:GetServerTimeNow()
